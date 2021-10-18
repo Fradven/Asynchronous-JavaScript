@@ -10,9 +10,9 @@
 // You will have time to focus on it later.
 
 (() => {
-    // click 
-    window.lib.getPosts().then(
-            // Your code here
-        )
-    
+    document.querySelector('#run').addEventListener('click', () => {
+        window.lib.getPosts().then((item) => {
+            console.log(item)
+        })
+    })
 })();

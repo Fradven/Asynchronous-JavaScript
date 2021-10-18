@@ -13,7 +13,8 @@
     // your code here
     document.querySelector('#run').addEventListener('click', () => {
         window.lib.getPersons( (error, peoples) => {
-            if(error) return console.error(error)
+            if(error) 
+            return console.error(error)
             console.log(peoples)
         })
     })
