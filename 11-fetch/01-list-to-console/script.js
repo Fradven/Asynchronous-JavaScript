@@ -10,15 +10,9 @@
 // You will have time to focus on it later.
 
 (() => {
-    document.querySelector("#run").addEventListener("click", async () => {
+    document.querySelector("#run").addEventListener("click", async() => {
         const response = await fetch("http://localhost:3000/heroes");
+        console.log(await response.json());
 
-        // Steps :
-        // 1. read the Fetch documentation
-        // 2. you must convert the response in a json format
-        // 3. display the response in the console
-        // NB: here we use an async await function, you can convert it 
-        //     in a Promise or callbacks functions if you prefer 
-        
     });
 })();
