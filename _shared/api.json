@@ -48,20 +48,12 @@
       ]
     },
     {
-      "name": "James Jamerson",
-      "alterEgo": "Spider-Oldman",
+      "name": "Remi",
+      "alterEgo": "Orphan",
       "abilities": [
-        "Spider"
+        "No parent"
       ],
       "id": 6
-    },
-    {
-      "name": "Charles Xavier",
-      "alterEgo": "Mr.X",
-      "abilities": [
-        "Telekinesis"
-      ],
-      "id": 7
     }
   ]
 }

@@ -9,6 +9,14 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
+
 (() => {
-    // your code here
+    document.querySelector("#run").addEventListener("click", async() => {
+        const heroID = document.querySelector("#hero-id").value;
+        const result = await fetch(`http://localhost:3000/heroes/${heroID}`, {
+            method: 'DELETE',
+        });
+        const getAll = await fetch("http://localhost:3000/heroes")
+        console.log(await getAll.json())
+    }) 
 })();
